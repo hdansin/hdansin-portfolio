@@ -1,0 +1,16 @@
+$bg0: #2e3440;
+$fg0: #eceff4;
+
+body {
+    color: $bg0;
+    background-color: $fg0;
+}
+
+nav {
+    color: $bg0;
+    background-color: $fg0;
+}
+
+.about-section {
+    padding-top: 10rem;
+}
