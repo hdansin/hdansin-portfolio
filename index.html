@@ -16,7 +16,7 @@
     <body id="page-top">
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg  navbar-light fixed-top"> 
             <a class="navbar-brand" href="#">
                 <img src="./assets/propic.jpg" width="30" height="30" alt="profile picture">
             </a>
@@ -43,15 +43,70 @@
 
         <!-- About Section -->
         <section id="about" class="about-section text-center">
-            <div class="container">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="mb-4">Hi, I'm Hunter Dansin.</h2>
-                    <p>I am writer of code and content that values <em>efficiency</em>, <em>elegance</em>, and <em>simplicity</em>.</p>
+            <div class="container h-100 align-items-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="mb-4">Hi, I'm Hunter Dansin.</h2>
+                        <p>I am a writer of code and content who values <em>efficiency</em>, <em>elegance</em>, and <em>simplicity</em>.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="code" class="code-section">
+            <div class="container">
+                
+                <!-- Featured Project Row -->
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-8 col-lg-7">
+                        <img class="img-fluid mb-3 mb-lg-0" src="" alt="A thumbnail of a todo tracker api.">
+                    </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <h4>TODO Tracker</h4>
+                        <p>An API for tracking todo items that features authentication, an easy to use interface, and storage via mongodb.</p>
+                    </div>
+                </div>
+
+                <!-- Single Page Apps -->
+                <div class="row">
+                    <div class="no-gutters col-sm">
+                        <div class="card">
+                            <a class="card-link" href="https://codepen.io/hdansin/full/ExYreax">
+                                <img src="./assets/pomodoro.png" class="card-img-top" alt="A thumbnail of a pomodoro timer.">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">React Pomodoro Clock</h5>
+                                <p class="card-text">A pomodoro timer built with ReactJS.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="no-gutters col-sm">
+                        <div class="card">
+                            <a class="card-link" href="https://codepen.io/hdansin/full/KKKdEXv">
+                                <img src="./assets/treemap.png" class="card-img-top" alt="A thumbnail of a treemap built with D3.js.">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">D3 Treemap</h5>
+                                <p class="card-text">A treemap built with D3JS.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="no-gutters col-sm">
+                        <div class="card">
+                            <a class="card-link" href="https://www.freecodecamp.org/hdansin">
+                                <img src="./assets/fcc-portfolio.png" class="card-img-top" alt="A thumbnail of my fcc portfolio page">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Free Code Camp</h5>
+                                <p class="card-text">Browse my Free Code Camp profile.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
 

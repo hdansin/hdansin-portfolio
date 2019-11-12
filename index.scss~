@@ -13,4 +13,11 @@ nav {
 
 .about-section {
     padding-top: 10rem;
+    height: 75vh;
+}
+
+.code-section {
+    padding-top: 10rem;
+    color: $fg0;
+    background-color: $bg0;
 }
