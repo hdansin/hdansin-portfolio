@@ -1,0 +1,14 @@
+{
+	"title": "Portfolio",
+	"name": "hdansin-portfolio",
+	"description": "My personal portfolio page.",
+	"author": "Hunter Dansin",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hdansin/hdansin-portfolio"
+	},
+	"dependencies": {
+		"bootstrap": "4.3.1",
+		"jquery": "3.4.1"
+	}
+}
