@@ -9,6 +9,9 @@ nav {
 em {
   color: #88c0d0; }
 
+a {
+  color: #5e81ac; }
+
 .about-section {
   padding-top: 10rem;
   height: 75vh; }
@@ -23,6 +26,10 @@ em {
 
 .contact-section {
   padding-top: 5rem;
+  color: #eceff4;
+  background-color: #2e3440; }
+
+.footer-section {
   color: #eceff4;
   background-color: #2e3440; }
 

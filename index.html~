@@ -130,7 +130,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Essays and blog posts.</h5>
                                 <p class="card-text">Follow my blog on Write.as for essays about technology, writing, life, and anything else I am interested in.<p>
-                                <a href="https://hdansin.writeas.com/" class="card-link">Go</a>
+                                <a href="https://hdansin.writeas.com/" class="card-link">Read</a>
                             </div>
                         </div>
                     </div>
@@ -203,8 +203,11 @@
         </section>
 
         <!-- Footer -->
-        <section id="footer">
+        <section id="footer" class="footer-section">
             <div class="container">
+                <div class="row">
+                    <p><small>Made with <a href="https://getbootstrap.com/">bootstrap</a>, colors from the <a href="https://www.nordtheme.com/">Nord</a> color palette.<small></p>
+                </div>
             </div>
         </section>
 

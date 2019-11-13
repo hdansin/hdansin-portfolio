@@ -17,6 +17,10 @@ em {
     color: $hl;
 }
 
+a {
+    color: $link;
+}
+
 .about-section {
     padding-top: 10rem;
     height: 75vh;
@@ -38,7 +42,16 @@ em {
     background-color: $bg0;
 }
 
+.footer-section {
+    color: $bg0;
+    background-color: $fg0;
+}
+
 .card {
     color: $bg0;
     background-color: $fg0;
+}
+
+.card-link {
+    color: $link;
 }
