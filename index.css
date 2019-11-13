@@ -6,15 +6,29 @@ nav {
   color: #2e3440;
   background-color: #eceff4; }
 
+em {
+  color: #88c0d0; }
+
 .about-section {
   padding-top: 10rem;
   height: 75vh; }
 
 .code-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
+  color: #eceff4;
+  background-color: #2e3440; }
+
+.content-section {
+  padding-top: 5rem; }
+
+.contact-section {
+  padding-top: 5rem;
   color: #eceff4;
   background-color: #2e3440; }
 
 .card {
   color: #2e3440;
   background-color: #eceff4; }
+
+.card-link {
+  color: #5e81ac; }
