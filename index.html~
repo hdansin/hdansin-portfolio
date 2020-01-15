@@ -11,10 +11,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
     <link rel="manifest" href="/assets/site.webmanifest">
 		<title>Portfolio</title>
-		  <!-- Bootstrap core CSS -->
+
+		<!-- Bootstrap core CSS -->
 		<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
         <!-- My custom CSS -->
         <link href="index.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 
 	</head>
 
@@ -22,16 +27,14 @@
 
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg  navbar-light fixed-top"> 
-            <a class="navbar-brand" href="#">
-                <img src="./assets/propic.jpg" width="30" height="30" alt="profile picture">
-            </a>
+            <a class="navbar-brand" href="#">HD</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a clas="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#code">Code</a>
@@ -51,16 +54,18 @@
             <div class="container h-100 align-items-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="mb-4">Hi, I'm Hunter Dansin.</h2>
-                        <p>I am a writer of code and content who values <em>efficiency</em>, <em>elegance</em>, and <em>simplicity</em>.</p>
+                        <h4 class="mb-4">Hi, I'm Hunter Dansin.</h4>
+                        <h5 class="mb-4">I am a writer of code and content who values <em>precision</em>, <em>elegance</em>, and <em>utility</em>.</h5>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Code Section -->
         <section id="code" class="code-section">
-            <div class="container">
-                
+            <div class="container mb-4">
+                <h1 class="display-4 text-center">My Code</h1>
+
                 <!-- Featured Project Row -->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                     <div class="col-xl-8 col-lg-7">
@@ -74,7 +79,7 @@
 
                 <!-- Single Page Apps -->
                 <div class="row">
-                    <div class="no-gutters col-sm">
+                    <div class="no-gutters col-sm mb-4">
                         <div class="card">
                             <a class="card-link" href="https://codepen.io/hdansin/full/ExYreax">
                                 <img src="./assets/pomodoro.png" class="card-img-top" alt="A thumbnail of a pomodoro timer.">
@@ -86,7 +91,7 @@
                         </div>
                     </div>
 
-                    <div class="no-gutters col-sm">
+                    <div class="no-gutters col-sm mb-4">
                         <div class="card">
                             <a class="card-link" href="https://codepen.io/hdansin/full/KKKdEXv">
                                 <img src="./assets/treemap.png" class="card-img-top" alt="A thumbnail of a treemap built with D3.js.">
@@ -98,7 +103,7 @@
                         </div>
                     </div>
 
-                   <div class="no-gutters col-sm">
+                   <div class="no-gutters col-sm mb-4">
                         <div class="card">
                             <a class="card-link" href="https://www.freecodecamp.org/hdansin">
                                 <img src="./assets/fcc-portfolio.png" class="card-img-top" alt="A thumbnail of my fcc portfolio page">
@@ -113,6 +118,104 @@
 
             </div>
         </section>
+
+        <!-- Content Section -->
+        <section id="content" class="content-section">
+            <h1 class="display-4 text-center">My Content</h1>
+            <br>
+            <div class="container">
+                <div class="row">
+
+                    <!-- Non-fiction Card -->
+                    <div class="no-gutters col-sm mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                Non-fiction
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Essays and blog posts.</h5>
+                                <p class="card-text">Follow my blog on Write.as for essays about technology, writing, life, and anything else I am interested in.<p>
+                                <a href="https://hdansin.writeas.com/" class="card-link">Read</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fiction Card -->
+                    <div class="no-gutters col-sm mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                Fiction
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Novels and short stories.</h5>
+                                <p class="card-text">Read my novels, or follow me on Tapas to read chapter by chapter.<p>
+                                <a href="https://www.hunterdansin.com/" class="card-link">Novels</a>
+                                <a href="https://tapas.io/hdansin" class="card-link">Tapas</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h3 class="display-4 text-center">Get in Touch</h3>
+                <br>
+
+                <div class="row">
+                    
+                    <!-- Email -->
+                    <div class="no-gutters col-sm mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Email</h5>
+                                <p class="card-text">Send me an email.</p>
+                                <i class="far fa-envelope"></i>
+                                <a href="mailto:mormegil@tuta.io" class="card-link">mormegil@tuta.io</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Twitter -->
+                    <div class="no-gutters col-sm mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Twitter</h5>
+                                <p class="card-text">Follow me on Twitter.</p>
+                                <i class="fab fa-twitter"></i>
+                                <a href="https://twitter.com/hdansin" class="card-link">@hdansin</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mastododon -->
+                    <div class="no-gutters col-sm mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Mastodon</h5>
+                                <p class="card-text">Follow me on Mastodon.</p>
+                                <i class="fab fa-mastodon"></i>
+                                <a href="https://mastodon.social/@hdansin" class="card-link">@hdansin@mastodon.social</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer" class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <p><small>Made with <a href="https://getbootstrap.com/">bootstrap</a>, colors from the <a href="https://www.nordtheme.com/">Nord</a> color palette.<small></p>
+                </div>
+            </div>
+        </section>
+
 
 
         <!-- Bootstrap required scripts -->

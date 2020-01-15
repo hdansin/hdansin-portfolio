@@ -1,5 +1,7 @@
 $bg0: #2e3440;
 $fg0: #eceff4;
+$link: #5e81ac;
+$hl: #88c0d0;
 
 body {
     color: $bg0;
@@ -11,13 +13,45 @@ nav {
     background-color: $fg0;
 }
 
+em {
+    color: $hl;
+}
+
+a {
+    color: $link;
+}
+
 .about-section {
     padding-top: 10rem;
     height: 75vh;
 }
 
 .code-section {
-    padding-top: 10rem;
+    padding-top: 5rem;
     color: $fg0;
     background-color: $bg0;
+}
+
+.content-section {
+    padding-top: 5rem;
+}
+
+.contact-section {
+    padding-top: 5rem;
+    color: $fg0;
+    background-color: $bg0;
+}
+
+.footer-section {
+    color: $bg0;
+    background-color: $fg0;
+}
+
+.card {
+    color: $bg0;
+    background-color: $fg0;
+}
+
+.card-link {
+    color: $link;
 }
