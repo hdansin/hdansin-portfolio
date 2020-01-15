@@ -43,8 +43,8 @@ a {
 }
 
 .footer-section {
-    color: $bg0;
-    background-color: $fg0;
+    color: $fg0;
+    background-color: $bg0;
 }
 
 .card {
@@ -54,4 +54,8 @@ a {
 
 .card-link {
     color: $link;
+}
+
+.border-hl {
+  border: solid 4px $hl;
 }

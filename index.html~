@@ -6,10 +6,10 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
     <!-- icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-    <link rel="manifest" href="/assets/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
 		<title>Portfolio</title>
 
 		<!-- Bootstrap core CSS -->
@@ -68,12 +68,14 @@
 
                 <!-- Featured Project Row -->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7">
-                        <img class="img-fluid mb-3 mb-lg-0" src="" alt="A thumbnail of a todo tracker api.">
-                    </div>
-                    <div class="col-xl-4 col-lg-5">
-                        <h4>TODO Tracker</h4>
-                        <p>An API for tracking todo items that features authentication, an easy to use interface, and storage via mongodb.</p>
+                    <span class="m-3 border-hl rounded col-lg-7">
+                      <a href="https://todo-tracker.herokuapp.com">
+                        <img class="img-fluid mb-3 mb-lg-0" src="./assets/Tracker.png" alt="A thumbnail of a todo tracker api.">
+                      </a>
+                    </span>
+                    <div class="m-3 col-xl-4 col-lg-5">
+                        <h4>Do It! Todo Tracker</h4>
+                        <p>A todo list application built in Node.JS and integrated with Auth0 and MongoDB</p>
                     </div>
                 </div>
 
